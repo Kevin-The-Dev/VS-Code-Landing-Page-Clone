@@ -1,1 +1,1 @@
-![My Project Logo](home.png)
+![My Project Logo](Preview.png)
