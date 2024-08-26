@@ -1,74 +1,60 @@
-body {
+body{
     background-color: #121111;
-    padding: 0;
-    margin: 0;
-
+    
 }
 
-.navigation {
+.navigation{
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
-    flex-wrap: wrap;
-    align-items: center;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-top: 5px;
 }
-
-.navigation a {
+.navigation a{
     text-decoration: none;
     color: #9d9d9d;
 }
-
-a {
+a{
     font-size: 1.05em;
     font-weight: 500;
-    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
     padding-inline: 7px;
 }
-
-a:hover {
+a:hover{
     color: white;
 }
-
-.nav-bar {
+.nav-bar{
     display: flex;
     align-items: center;
-    gap: 10px;
 }
-
-.icon {
+.icon{
     width: 26px;
     height: 26px;
 }
-
-#main {
+#main{
     color: white;
     font-size: 1.3em;
     font-weight: 600;
-    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
     padding-left: 10px;
 }
-
 .search-container {
     display: flex;
     align-items: center;
     position: relative;
-    width: 100%;
-    max-width: 300px;
-    margin-top: 10px;
+    width: 300px; 
 }
 
 .search-icon {
-    display: flex;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    max-width: 300px;
-    margin-top: 10px;
+    position: absolute;
+    left: 10px;
+    width: 16px; 
+    height: 16px;
 }
 
 .search-input {
     width: 100%;
-    padding-left: 30px;
+    padding-left: 30px; 
     padding-right: 10px;
     height: 35px;
     border: 1px solid #ccc;
@@ -89,68 +75,57 @@ a:hover {
     background-color: #005fa3;
 }
 
-.banner {
+.banner{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 80px;
 }
-
-.banner a {
+.banner a{
     color: #4daafc;
 }
-
-.banner img {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
+.banner img{
+    width: 800px;
+    height: 500px;
 }
-
-.new-version {
+.new-version{
     color: #9d9d9d;
-    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
     font-weight: 500;
     font-size: 0.9em;
     margin-top: 30px;
 }
-
-.banner-part2 {
+.banner-part2{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
     align-items: center;
-    gap: 2em;
-    margin-top: 40px;
-    text-align: center;
+    gap: 7em;
 }
-
-.div-1 {
+.div-1{
     display: inline-block;
     color: #9d9d9d;
-    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
     font-weight: 500;
     font-size: 0.9em;
     border-style: solid;
     border-radius: 25px;
     border-width: thin;
     border-color: #323232;
-    background-color: rgba(255, 255, 255, 0.12);
+    background-color: rgba(255,255,255,0.12);
     padding-inline: 10px;
     padding-block: 7px;
 }
-
-.banner-part2 h1 {
+.banner-part2 h1{
     color: white;
-    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
     font-weight: 600;
     font-size: 3.4em;
 }
-
-.banner-part2 button {
-    width: 100%;
-    max-width: 250px;
+.banner-part2 button{
     background-color: #0078d4;
     color: white;
-    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
     font-weight: 600;
     font-size: 1.2em;
     border-style: none;
@@ -158,46 +133,13 @@ a:hover {
     padding-inline: 20px;
     padding-block: 10px;
 }
-
-.para-1 {
+.para-1{
     color: #9d9d9d;
     font-size: 0.8em;
     font-weight: 500;
 }
-
-.para-2 {
+.para-2{
     color: #9d9d9d;
     font-size: 0.7em;
-    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-}
-
-
-@media (min-width: 900px) {
-    .navigation {
-        padding-left: 130px;
-        padding-right: 150px;
-    }
-
-    .banner-part2 {
-        flex-direction: row;
-        justify-content: center;
-        text-align: left;
-    }
-
-    .banner-part2 h1 {
-        font-size: 3.4em;
-    }
-
-    .banner img {
-        max-width: 800px;
-        height: 500px;
-    }
-
-    .search-container {
-        margin-top: 0;
-    }
-
-    .search-input {
-        width: 300px;
-    }
+    font-family: "Segoe UI","Helvetica Neue",Arial,sans-serif;
 }
